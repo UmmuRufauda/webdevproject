@@ -1,0 +1,14 @@
+.text {
+    color: white;
+    font-size: 100%;
+    font-family: sans-serif;
+}
+
+.col-6 {
+    display: flex;
+}
+
+.li #alert {
+    margin: 5px;
+    margin-left: 2px;
+}

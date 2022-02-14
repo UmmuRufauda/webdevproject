@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(../images/coffee.webp);
+    background-size: cover;
+    background-position: center;
+    font-family: monospace;
+}
+
+.signinbox {
+    width: 80%;
+    height: 80%;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+h1 {
+    max-resolution: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.signinbox p {
+    max-resolution: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.signinbox input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.signinbox input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 70px;
+    background: #fb1245;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    margin-left: 80%;
+    margin-bottom: 20px;
+}
+
+.signinbox input[type="submit"]:hover {
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+
+.signinbox a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+.signinbox a:hover {
+    color: #ffc107;
+}
