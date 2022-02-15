@@ -29,7 +29,7 @@
                             <h4 class="grey">Welcome Back</h4>
 
                         </div>
-                        <form action="" method="">
+                        <form action="handlle_login.php" method="post">
                             <div class="row mb-3">
                                 <input class="form-control rounded-pill" type="email" name="email"
                                     placeholder="Email Address">
@@ -39,8 +39,8 @@
                                     placeholder="Password">
                             </div>
                             <div class="row mb-3">
-                                <a href="" class="rounded-pill btn btn-primary">Login
-                                </a>
+                                <input type="submit" name="login" class="rounded-pill btn btn-primary">Login
+
                             </div>
                             <hr>
                         </form>
