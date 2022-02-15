@@ -36,7 +36,7 @@
                     </li>
                     <hr>
                     <li class="nav-item stylenav">
-                        <a class="nav-link" href="#">
+                        <a class="nav-link" href="participant.php">
                             <i class="fa fa-users fa-lg text-white"></i>
                             <span class="text-white">Participants</span>
 

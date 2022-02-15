@@ -31,7 +31,7 @@ $result = mysqli_query($link, $sql);
 
 if($result){
     echo"You have been registered";
-    header("lacation:Login.php");
+    header("location:Login.php");
 }else{
     echo"Error executing query".mysqli_error($link);
 }
@@ -40,7 +40,6 @@ if($result){
 }
 mysqli_close($link);
 }
-
 
 
 
