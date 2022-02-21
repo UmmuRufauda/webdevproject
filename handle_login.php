@@ -23,6 +23,7 @@ if($result){
             $id = $row['id'];
             $email = $row["email"];
             $password = $row["password"];
+            $firstname = $row["firstname"];
             
 
             //verifying password
@@ -31,7 +32,7 @@ if($result){
                 session_start();
                 $_SESSION["loggedin"]=true;
                 $_SESSION["id"] = $id;
-                $_SESSION["username"]=$email;
+                $_SESSION["username"]=$fisrtname;
 
                 header("location:Dashboard.php");
 

@@ -1,3 +1,19 @@
+<?php  
+
+session_start();
+
+
+//check if user has loged in ?
+if(!isset($_SESSION['lgedin']) or $_SESSION['logedin']!==true){
+    header("Location:index.php");
+    exit();
+}
+
+
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
